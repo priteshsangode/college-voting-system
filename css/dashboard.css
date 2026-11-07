@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f2f5f9;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+/* Common Card Style */
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    width: 320px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+/* Voter Details */
+.voter-card .detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.status {
+    color: red;
+}
+
+.logout-btn {
+    margin-top: 30px;
+    background: #c0392b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Voting Section */
+.vote-card {
+    background: #eaf1f8;
+}
+
+.sub-text {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.candidate {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.candidate img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.vote-btn {
+    width: 100%;
+    background: #1e88e5;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
